@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+/*--Navigation Bar--*/
+html, body{
+  overflow-x:hidden !important;
+}
+.brandBase{
+  font-weight:600;
+  font-size: 2em;
+  padding: 1em;
+  font-family: 'Playfair Display', serif;
+}
+.navigate{
+  border-bottom: black .00001em solid;
+}
+
+.links{
+    padding: .2em 2em;
+    font-family: 'Playfair Display', serif;
+}
+
+/**--landingPage Styling--*/
+.landingPage{
+  height:80vh;
+  width: 100vw;
+  background: #fafafa;
+  z-index: -100;
+  font-family: 'Playfair Display', serif;
+  border-bottom: black .00001em solid;
+}
+
+h1.masking {
+    background-image: url('https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-attachment: fixed;
+    color: transparent;
+    position:relative;
+    z-index: 100;
+    font-size:40em;
+    font-weight:600;
+    margin-left: 60%;
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+
+.landingTitle{
+  position:absolute;
+  z-index:300;
+ margin-top:3em;
+  font-size:3em;
+  margin-left: 20px
+}
+
+.landingSubtitle{
+  position: absolute;
+  z-index: 300;
+  margin-top: 10em;
+  margin-left: 25px;
+}
+
+
+@media only screen and (max-width: 968px){
+  h1.masking{font-size: 0; }
+  .landingTitle{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 50vh;
+  }
+  .landingSubtitle{
+  color:transparent;
+  }
+
+.landingPage{
+  background: url('https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:white;
+  height: 100vh;
+}
+
+}
+/*--Introduction Section--*/
+.introduction{
+  margin-top: 10vh;
+  border-bottom: black .00001em solid;
+}
+.intro1{
+  padding:1em;
+}
+
+.introTitle{
+  font-size:5em;
+  font-family: 'Playfair Display', serif;
+  font-weight:200;
+}
+
+.introDivider{
+  width:50%;
+}
+
+.introText{
+font-family: 'EB Garamond', serif;
+  font-weight:100;
+ font-size:1.3em;
+ padding: 0 .6em;
+}
+
+.introPic{
+  height:75%;
+  width:70%;
+  display: block;
+  margin:auto;
+  padding-top:15%;
+}
+
+.introSpacerBottom{
+  height:5vh;
+  width:100vw;
+}
+
+
+/*-- edge Section--*/
+.edge{
+  padding-top:.5vh;
+  border-bottom: black .00001em solid;
+
+}
+
+
+.edgeImageTop{
+  height:70%;
+  width:70%;
+  display: block;
+  margin:auto;
+padding: 3em .75em;
+
+}
+
+.edgeTitle{
+  font-family: 'Playfair Display', serif;
+  padding:.5em 0;
+  padding-bottom:0;
+  font-size: 5em;
+}
+
+.edgeSubTitle{
+    font-family: 'EB Garamond', serif;
+    font-size:3em;
+    padding-top: .5em;
+    font-weight: 100;
+    text-decoration: overline;
+}
+
+.edgeSpec{
+  display: block;
+  margin: auto;
+  padding: .75em 2em;
+}
+
+.edgeSectionImage{
+  height:70%;
+  width:70%;
+  display: block;
+  margin:auto;
+  padding:1.5em 1em;
+
+}
+
+.edgeSpacer{
+height:5vh;
+
+}
+
+.edgeSectionTitle{
+  padding: .5em 1em;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+}
+
+.edgeSectionDescription{
+font-family: 'EB Garamond', serif;
+    font-weight:100;
+   font-size:1.2em;
+   text-align: justify;
+   justify-content:space-around;
+}
+
+.edgeIcons{
+  color: maroon;
+}
+
+/*-- Services Section---*/
+
+.services{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-bottom: black .00001em solid;
+}
+.services1{
+  padding:1em;
+}
+
+.servicesTitle{
+  font-size:5em;
+  font-family: 'Playfair Display', serif;
+  font-weight:200;
+}
+
+.servicesDivider{
+  width:50%;
+}
+
+.servicesText{
+font-family: 'EB Garamond', serif;
+  font-weight:100;
+ font-size:1.3em;
+ padding: 0 .6em;
+}
+
+.servicesPic{
+  height:60%;
+  width:65%;
+  display: block;
+  margin:auto;
+  padding-top:5%;
+  max-height: 40vh;
+}
+
+.servicesSpacerBottom{
+  height:13vh;
+  width:100vw;
+
+}
+
+/*-- Connect Section--*/
+.connect{
+    border-bottom: black .00001em solid;
+}
+.connectTitle{
+  padding-top: 2em;
+  font-size:4em;
+  font-family: 'Playfair Display', serif;
+  font-weight:100;
+}
+
+.connectContact{
+  padding: 1.75em 1.5em;
+}
+
+.form-group{
+  font-family: 'Playfair Display', serif;
+
+}
+
+.submitButton{
+  color:maroon;
+  background-color:transparent;
+  outline: maroon 2px solid;
+  margin-bottom:5vh;
+
+}
+
+.submitButton:hover{
+  color: white;
+  background-color: maroon;
+  border-radius:0%;
+}
+
+
+/*--Footer---*/
+.footer{
+  color:black;
+  padding: 2vh 3vw;
+  background:#fafafa;
+    font-family: 'Playfair Display', serif;
+}
+
+.addressList{
+  font-weight:lighter;
+}
+.Adlink{
+  padding-bottom:0;
+  padding-top:0;
+  font-size:1em;
+  line-height:1.2em;
+  font-weight:lighter;
+}
+.contactInfo{
+  list-style:none;
+  line-height:1.2em;
+  font-weight:lighter;
+  color:black;
+  padding:0;
+}
+.contactInfo1{
+  text-align:right;
+  padding:0 2vw;
+  margin-top:0;
+  margin-bottom:0;
+
+}
+
+.contactIcons{
+  padding:0 1em;
+  color: maroon;
+}
+
+
+.aesSpacer{
+  height: 10vh;
+}
+
+@media only screen and (max-width: 968px){
+ .contactInfo1, .t1{
+  text-align:center;
+  }
+  .contactIcons{
+    margin:0;
+    text-align: center;
+   align-items: center;
+  }
+  .contactIconRow{
+    margin:0;
+    text-align: center;
+    align-items: center;
+    margin-top: 3em;
+  }
+}
+
+
+@media only screen and (max-width: 968px){
+  .mobileFix{
+    text-align: center !important;
+  }
+}
