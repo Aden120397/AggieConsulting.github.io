@@ -45,7 +45,7 @@ h1.masking {
     z-index: 100;
     font-size:40em;
     font-weight:600;
-    margin-left: 60%;
+    margin-left: 6%;
     margin-top: 0px;
     padding-top: 0;
 }
@@ -56,14 +56,14 @@ h1.masking {
   z-index:300;
  margin-top:3em;
   font-size:3em;
-  margin-left: 20px
+  margin-left: 50%;
 }
 
 .landingSubtitle{
   position: absolute;
   z-index: 300;
   margin-top: 10em;
-  margin-left: 25px;
+  margin-left: 50%;
 }
 
 
@@ -132,7 +132,7 @@ font-family: 'EB Garamond', serif;
   font-weight:100;
  font-size:1.3em;
  padding: 0 .6em;
- color:black ; 
+ color:black ;
 }
 
 .introPic{
@@ -228,7 +228,7 @@ font-family: 'EB Garamond', serif;
    font-size:1.0em;
    text-align: justify;
    justify-content:space-around;
-    color:black; 
+    color:black;
 }
 
 .edgeIcons{
@@ -279,7 +279,7 @@ font-family: 'EB Garamond', serif;
  font-size:1.3em;
  padding: 0 .6em;
  text-align: left;
-  color: black; 
+  color: black;
 }
 
 .servicesPic{
@@ -398,4 +398,3 @@ font-family: 'EB Garamond', serif;
     text-align: center !important;
   }
 }
-
