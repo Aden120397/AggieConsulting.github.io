@@ -57,7 +57,6 @@ h1.masking {
  margin-top:3em;
   font-size:4em;
   margin-left: 50%;
-      text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
 }
 
 .landingSubtitle{
@@ -77,7 +76,8 @@ h1.masking {
     text-align: center;
     margin: 0;
     padding: 0;
-    margin-top: 45vh;
+    margin-top: 40vh;
+    font-size:3.75em;
   }
   .landingSubtitle{
   color:transparent;
