@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
       <script src="script.js"></script>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!--Navigation Bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light navigation  fixed-top navigate">
       <a class="navbar-brand" href="#home"><span class="brandBase">ACG</span></a>
@@ -20,8 +20,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse  justify-content-end navigation " id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active links">
+        <ul class="navbar-nav nav-pills red">
+          <li class="nav-item links">
             <a class="nav-link " href="#intro">About<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item links">
@@ -37,6 +37,7 @@
       </div>
     </nav>
 
+
     <!-- Landing page-->
     <div id="home"></div>
     <div class="container-fluid landingPage" >
@@ -47,7 +48,7 @@
     </div>
 
     <!-- Introduction Section--->
-<div id="intro"></div>
+    <div id="intro"></div>
     <div class="container-fluid introduction mobileFix" >
         <div class='row'>
           <div class= 'col-lg-1 '></div>
@@ -64,47 +65,48 @@
           <div class="container aesSpacer"></div>
     </div>
 
-<!--Edge Section-->
-<div id="edge"></div>
-<br>
-<br>
-<div class="container-fluid edge text-center mobileFix">
-    <div class="row">
+    <!--Edge Section-->
+    <div id="edge"></div>
+    <br>
+    <br>
+    <div class="container-fluid edge text-center mobileFix">
+      <div class="row">
        <div class="col-lg-1 "></div>
        <div class="col-md-10 ">
          <h1 class="edgeTitle">  The ACG Edge </h1>
          <p class="edgeSubTitle">We commit to...</p>
-     </div>
-     <div class="col-lg-1 "></div>
-   </div>
+        </div>
+          <div class="col-lg-1 "></div>
+        </div>
 
-   <div class="container edgeSpacer"></div>
-   <div class="row">
-     <div class="col-lg edgeSpec">
-       <i class="fa fa-history edgeIcons fa-3x" aria-hidden="true"></i>
-         <h3 class="edgeSectionTitle">Reflection</h3>
-         <p class="edgeSectionDescription">To overcome the ever-changing demands of business and excel in today’s ultra competitive market, your organization needs an adaptive team. Here at ACG, we strive to be just that; our unwavering dedication to constant learning, reflection, and growth ensures that we are consistently ahead of the competition.</p>
-    </div>
-      <div class="col-lg edgeSpec">
-       <i class="fa fa-handshake-o edgeIcons fa-3x" aria-hidden="true"></i>
-         <h3 class="edgeSectionTitle">Connection</h3>
-         <p class="edgeSectionDescription">Our situation in America’s 3rd largest college campus allows us to offer clients unparalleled access to a Gen Z & Millennial audience. We understand what these groups value and how they interact with products. By sharing this insight with our clients, we help them better engage with a critical demographic in both consumer and talent markets.</p>
-    </div>
-      <div class="col-lg edgeSpec">
-       <i class="fa fa-diamond edgeIcons fa-3x" aria-hidden="true"></i>
-         <h3 class="edgeSectionTitle">Discovery</h3>
-         <p class="edgeSectionDescription">Our team’s diverse makeup enables us to apply unique perspectives to casework. Our interdisciplinary approach to consulting allows us to unlock new insight that others miss and culminates in innovative and actionable strategic recommendations that add immediate value to our clients’ organizations.</p>
-    </div>
 
-    </div>
+        <div class="container edgeSpacer"></div>
+        <div class="row">
+          <div class="col-lg edgeSpec">
+            <i class="fa fa-history edgeIcons fa-3x" aria-hidden="true"></i>
+            <h3 class="edgeSectionTitle">Reflection</h3>
+            <p class="edgeSectionDescription">To overcome the ever-changing demands of business and excel in today’s ultra competitive market, your organization needs an adaptive team. Here at ACG, we strive to be just that; our unwavering dedication to constant learning, reflection, and growth ensures that we are consistently ahead of the competition.</p>
+          </div>
+          <div class="col-lg edgeSpec">
+            <i class="fa fa-handshake-o edgeIcons fa-3x" aria-hidden="true"></i>
+            <h3 class="edgeSectionTitle">Connection</h3>
+            <p class="edgeSectionDescription">Our situation in America’s 3rd largest college campus allows us to offer clients unparalleled access to a Gen Z & Millennial audience. We understand what these groups value and how they interact with products. By sharing this insight with our clients, we help them better engage with a critical demographic in both consumer and talent markets.</p>
+          </div>
+          <div class="col-lg edgeSpec">
+              <i class="fa fa-diamond edgeIcons fa-3x" aria-hidden="true"></i>
+              <h3 class="edgeSectionTitle">Discovery</h3>
+              <p class="edgeSectionDescription">Our team’s diverse makeup enables us to apply unique perspectives to casework. Our interdisciplinary approach to consulting allows us to unlock new insight that others miss and culminates in innovative and actionable strategic recommendations that add immediate value to our clients’ organizations.</p>
+            </div>
+
+          </div>
     <div class="container aesSpacer"></div>
-</div>
+  </div>
 
 
 
-<!-- Services Section-->
-<div id="services"></div>
-<div class="container-fluid services text-center mobileFix">
+  <!-- Services Section-->
+  <div id="services"></div>
+  <div class="container-fluid services text-center mobileFix">
     <div class='row'>
       <div class= 'col-lg-1 '></div>
       <div class= "col-lg-5 services1" >
@@ -140,13 +142,13 @@
  </div>
 
 
-<!--  Connect Section-->
-<div id="contact"></div>
-<div class=" container-fluid connect ">
-   <div class="row-fluid text-center">
-     <h1 class="connectTitle">Interested in partnering with us?</h1>
-     <p class="edgeSubTitle"> Drop us a line</p>
-   </div>
+ <!--  Connect Section-->
+ <div id="contact"></div>
+ <div class=" container-fluid connect ">
+    <div class="row-fluid text-center">
+      <h1 class="connectTitle">Interested in partnering with us?</h1>
+      <p class="edgeSubTitle"> Drop us a line</p>
+      </div>
     <div class="row-fluid connectContact">
       <form>
                 <div class="row">
@@ -175,8 +177,8 @@
     <div class="container aesSpacer"></div>
 </div>
 
-<!-- Scroll to Top-->
-<div class="container-fluid footer mobileFix">
+  <!-- Scroll to Top-->
+  <div class="container-fluid footer mobileFix">
        <div class="row">
          <div class="col-lg-6 contactIconRow ">
            <h5 class="connectHeader">Connect With Us:</h5>
@@ -194,16 +196,22 @@
          </div>
        </div>
        <div class="row-fluid text-center footerBot">©2017 Aggie Consulting Group. ALL RIGHTS RESERVED.
-     </div>
+       </div>
    </div>
+
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
   <script src="https://use.fontawesome.com/fd4d82f497.js "></script>
-  <script src="script.js"></script>
+  <
+  script src="script.js"></script>
       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-  </body>
 
-<script src="https://use.fontawesome.com/fd4d82f497.js "></script>
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script src="script.js"></script>
+
+  <script src="https://use.fontawesome.com/fd4d82f497.js "></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="script.js"></script>
+
+
+
+</body>
 </html>
