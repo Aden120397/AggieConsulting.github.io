@@ -4,6 +4,8 @@
 /*--Navigation Bar--*/
 html, body{
   overflow-x:hidden !important;
+  position: relative;
+  overflow-y: scroll;
 }
 .brandBase{
   font-weight:600;
@@ -13,6 +15,9 @@ html, body{
 }
 .navigate{
   border-bottom: black .00001em solid;
+}
+.nav-item:active{
+  color:maroon !important;
 }
 
 .links{
@@ -223,12 +228,12 @@ font-family: 'EB Garamond', serif;
 }
 
 .servicesPic{
-  height:70%;
+  height:60%;
   width:65%;
   display: block;
   margin:auto;
   padding-top:5%;
-  max-height: 50vh;
+  max-height: 40vh;
 }
 
 .servicesSpacerBottom{
@@ -337,4 +342,14 @@ font-family: 'EB Garamond', serif;
   .mobileFix{
     text-align: center !important;
   }
+}
+
+
+.nav-pills > li > a.active {
+    background-color: transparent !important;
+    color: maroon!important;
+    text-decoration:overline !important;
+    font-size:1.1em !important;
+    font-weight:300 !important;
+
 }
