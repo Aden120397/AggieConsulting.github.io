@@ -3,13 +3,18 @@ window.sr = ScrollReveal({ reset: true });
 
 window.sr = ScrollReveal();
 sr.reveal('p', {duration:1000});
-sr.reveal('image1', {duration:1000});
+sr.reveal('.servicesPic', {duration:1000});
+sr.reveal('.introPic', {duration:1000});
 sr.reveal('h1', {duration:1500});
 sr.reveal('h2', {duration:1000});
 sr.reveal('h3', {duration:1000});
 sr.reveal('h4', {duration:1000});
 sr.reveal('h5', {duration:1000});
-sr.reveal('fa', {duration:1500});
+sr.reveal('.fa', {duration:1500});
+sr.reveal('hr', {duration:1500});
+sr.reveal('hr', {duration:1500});
+
+
 
 
 
@@ -55,6 +60,5 @@ $('a[href*="#"]')
       }
     }
   });
-
 
   
