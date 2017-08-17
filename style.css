@@ -92,12 +92,12 @@ h1.masking {
 
 .squareTester3{
   height:60vh;
-  width:80vw;
+  width:97vw;
   outline: .03px dashed maroon;
-  opacity: .4;
+  opacity: .2;
   position:absolute;
   margin-left: 1.5em;
-  margin-top: 8em;
+  margin-top: 7.2em;
 }
 
 @media only screen and (max-width: 968px){
@@ -395,3 +395,4 @@ font-family: 'EB Garamond', serif;
     text-align: center !important;
   }
 }
+
