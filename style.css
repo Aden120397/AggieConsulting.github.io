@@ -16,6 +16,13 @@ html, body{
 .navigate{
   border-bottom: black .00001em solid;
 }
+
+.nav-link:hover{
+    text-decoration:  overline maroon  !important;
+  
+}
+
+
 .nav-item:active{
   color:maroon !important;
 }
@@ -66,7 +73,7 @@ h1.masking {
   margin-left: 50%;
   font-size:2.5em;
   font-weight: 100;
-  color:maroon; 
+  color:maroon;
 }
 
 
