@@ -132,7 +132,7 @@ font-family: 'EB Garamond', serif;
   font-weight:100;
  font-size:1.3em;
  padding: 0 .6em;
-  color:gray; 
+ color:gray !important; 
 }
 
 .introPic{
@@ -228,7 +228,7 @@ font-family: 'EB Garamond', serif;
    font-size:1.0em;
    text-align: justify;
    justify-content:space-around;
-  color:gray; 
+    color:gray !important; 
 }
 
 .edgeIcons{
@@ -279,7 +279,7 @@ font-family: 'EB Garamond', serif;
  font-size:1.3em;
  padding: 0 .6em;
  text-align: left;
-  color:gray; 
+  color: !important gray; 
 }
 
 .servicesPic{
