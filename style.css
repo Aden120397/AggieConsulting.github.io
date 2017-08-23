@@ -70,7 +70,7 @@ h1.masking {
 .landingSubtitle{
   position: absolute;
   z-index: 300;
-  margin-top: 30vh;
+  margin-top: 40vh;
   margin-left: 50%;
   font-size:2.5em;
   font-weight: 100;
@@ -87,6 +87,7 @@ h1.masking {
     margin-top: 40vh;
     font-size:3.75em;
   }
+  
   .landingSubtitle{
   color:transparent;
   }
